@@ -1,4 +1,7 @@
 function hello(name, lastname, years) {
+    //return "Hola " + name + " " + lastname + ", tienes " + years + " años de edad"
+
+    return `Hola ${name} ${lastname}, tienes ${years} años de edad` //estas son mas comodas de usar cuando hay variables, sino con comillas normales esta bien
 }
 
 let result = hello('John', 'Anderton', 35)

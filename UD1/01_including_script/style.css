@@ -1,0 +1,42 @@
+body { background-color: F2F0EB; }
+
+button 
+{
+    height: 30px;
+    width: 70px;
+    background-color: #F19FBA;
+    color: #2D2D2D;
+    border: none;
+    border-radius: 10px;   
+}
+
+button:hover
+{
+    height: 35px;
+    width: 75px;
+    background-color: #F2F0EB;
+    color: #07B0AD;
+    box-shadow: #2D2D2D 1px 1px 5px 1px;
+}
+
+header
+{
+    height: 50px;
+    background-color: #07B0AD;
+    display: flex;
+    align-items: center;
+    flex-direction: row;
+    justify-content: space-around;
+
+}
+
+footer
+{
+    height: 50px;
+    background-color: #07B0AD;
+    display: flex;
+    align-items: center;
+    flex-direction: row;
+    justify-content: space-evenly;
+
+}
