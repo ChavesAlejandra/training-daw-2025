@@ -1,5 +1,16 @@
 body { background-color: #f5e9da;}
 
+header
+{
+    height: 50px;
+    background-color: #87c7a9;
+    display: flex;
+    align-items: center;
+    flex-direction: row;
+    justify-content: space-around;
+
+}
+
 main
 {
     display: flex;
@@ -61,15 +72,28 @@ button:hover
     height: 1000px;
 }
 
-header
+.pop-up
 {
-    height: 50px;
-    background-color: #87c7a9;
-    display: flex;
-    align-items: center;
-    flex-direction: row;
+    display: none;
+    flex-direction: column;
     justify-content: space-around;
+    align-items: center;
+    flex-wrap: wrap;
+    background-color: #2D2D2D;
+    color: #f5e9da;
+    border-radius: 10px;
+    height: 70%;
+    width: 70%;
+}
 
+.pop-up .fondo-tarjeta img
+{
+    border-radius: 10px;
+    width: 500px; 
+    height: 380px;
+    margin-top: 15px;
+    position: relative;
+    top: 5px;
 }
 
 footer
