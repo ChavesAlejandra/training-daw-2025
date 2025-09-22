@@ -1,4 +1,16 @@
-function printMultiplicationTables() {
+function printMultiplicationTables() 
+{
+    for (let i = 1; i < 11; i++) 
+    {
+        for (let a = 1; a < 11; a++) 
+        {
+            resutl = i * a
+
+        }
+
+        
+        console.log(resutl);
+    }
 
 }
 

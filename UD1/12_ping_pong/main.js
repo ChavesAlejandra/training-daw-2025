@@ -1,5 +1,14 @@
+
+let value
+
 function pingPong() {
 
+    for (let i = 1; i < 101; i++) 
+    {
+        if (i%10 === 0) { console.log("pong"); }
+        else if (i%5 === 0) { console.log("ping");}
+        else{value = console.log(i);}        
+    }
 }
 
 pingPong()
